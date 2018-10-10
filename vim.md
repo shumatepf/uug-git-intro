@@ -168,9 +168,9 @@ things but mostly go over things I haven't used yet.
 
 Headers use the # to denote the level of header. the more # the smaller the
 header.
-header 1
-header 2
-header 3
+# header 1
+## header 2
+### header 3
 
 Paragraphs are unformatted, but to start a new paragraph, two newlines are
 required (you can also use two spaces at the end of the line, but this is less
@@ -193,18 +193,18 @@ escape key)
 block code is denoted by three \` characters, and syntax highlighting works by
 putting the code type on the first line.
 
-//code//java
+```java
 if(bool.toString().equals("true")) {
     return 1 == 1;
 
 }
-//code//
+```
 
 The last few things that markdown does are numbered and bulleted lists
-1 numbered lists start with 1. but any number after doesn't matter
-2 this will show up as 2
-2 this will show up as 3
-8325 this will show up as 4
+1. numbered lists start with 1. but any number after doesn't matter
+2. this will show up as 2
+2. this will show up as 3
+8325. this will show up as 4
 
-bulleted lists can start with a -
-or a *
+- bulleted lists can start with a -
+* or a *
